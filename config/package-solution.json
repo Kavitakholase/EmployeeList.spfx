@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "employee-list-spfx-client-side-solution",
+    "id": "42c1c9b7-f187-4fcf-a274-1bec98e9c8d7",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.17.1"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "employee-list-spfx description"
+      },
+      "longDescription": {
+        "default": "employee-list-spfx description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "employee-list-spfx Feature",
+        "description": "The feature that activates elements of the employee-list-spfx solution.",
+        "id": "4cdcce01-2f7b-4ac4-95e8-1d4393c5f5f9",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/employee-list-spfx.sppkg"
+  }
+}
